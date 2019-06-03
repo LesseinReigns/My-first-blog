@@ -1,5 +1,5 @@
 .page-header {
-background-color: black;
+background-color: blue;
 margin-top: 0;
 padding: 20px 20px 20px 40px;
 }
@@ -12,7 +12,7 @@ text-decoration: none;
 margin-left: 40px;
 }
 h1, h2, h3, h4 {
-font-family: 'Monotype', cursive;
+font-family: 'Lucida Calligraphy', cursive;
 }
 .date {
 color: #342164;
@@ -33,5 +33,5 @@ margin-right: 20px;
 margin-bottom: 70px;
 }
 .post h1 a, .post h1 a:visited {
-color: #000000;
+color: rgb(blue);
 }
