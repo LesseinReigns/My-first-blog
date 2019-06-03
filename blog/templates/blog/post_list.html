@@ -1,22 +1,13 @@
-<html>
-	<head>
-		<title>Reigns Musical Concept</title>
-	</head>
-	<body>
-		<div>
-			<h1><a href="/">Reigns Musical concept</a></h1>
-		</div>
+{% extends 'blog/base.html' %}
 
-		<div>
-			<p>published: 28.05.2019, 1:30 pm</p>
-		<h2><a href="">Welcome!</a></h2>
-		<p>Need a musician for your event? Then you are at the right place!..... click here to check and book our free hours.</p>
+{% block content %}
+	{% for post in posts %}
+		<div class="post">
+			<div class="date">
+				{{ post.published_date }}
+			</div>
+			<h1><a href="{% url 'post_detail' pk=post.pk %}">{{ post.title }}</a></h1>
+			<p>{{ post.text|linebreaksbr }}</p>
 		</div>
-	
-		<div>
-			<p>published: 28.05.2019, 1:30 pm</p>
-			<h2><a href="">Thanks for Visiting.</a></h2>
-			<p>If you are pleased with our service please do well to like our page on facebook @ Lessein Reigns Musical Concept and follow us on twiter</p>
-		</div>
-	</body>
-</html>
+	{% endfor %}
+{% endblock %}
