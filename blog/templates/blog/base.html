@@ -14,14 +14,20 @@
 				<a href="{% url 'post_new' %}" class="top-menu"><span class="glyphicon glyphicon-plus"></span></a>
 			{% endif %}
 			<h1><a href="/">Reigns Sax</a></h1>
+			<h2><a href="/">All About Saxophone</a></h2>
 		</div>
 		<div class="content container">
 			<div class="row">
-				<div class="col-md-8">
+				<div class="col-md-10">
 					{% block content %}
 					{% endblock %}
 				</div>
 			</div>
+		</div>
+		<div class="page-footer">
+			<footer><a href="">© The Reigns Nation</a></footer>
+			<footer><a href="">Like us on facebook @Reigns Nation</a></footer>
+			<footer><a href=""></a>Follow us on Instagram @Sax Reigns</footer>
 		</div>
 	</body>
 </html>

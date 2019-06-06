@@ -1,18 +1,41 @@
 .page-header {
 background-color: blue;
 margin-top: 0;
-padding: 20px 20px 20px 40px;
+padding: 01px;
 }
 .page-header h1, .page-header h1 a, .page-header h1 a:visited, .page-header h1 a:active {
-color: #ffffff;
+color: white;
 font-size: 72pt;
-text-decoration: none;
+text-decoration: inherit;
+text-align: center;
+}
+.page-header h2 {
+background-color: #004;
+margin-top: 0;
+padding: left;
+}
+.page-header h2, .page-header h2 a, .page-header h2 a:visited, .page-header h2 a:active {
+color: white;
+font-size: 36pt;
+text-decoration: inherit;
+text-align: center;
+}
+.page-footer footer {
+background-color: blue;
+margin-bottom: 0;
+padding-bottom: 10px;
+}
+.page-footer footer, .page-footer footer a, .page-footer footer a:visited, .page-footer footer a:active{
+color: white;
+font-size: 18pt;
+text-decoration: inherit;
+text-align: center;	
 }
 .content {
 margin-left: 40px;
 }
 h1, h2, h3, h4 {
-font-family: 'Lucida Calligraphy', cursive;
+font-family: 'Castellar', cursive;
 }
 .date {
 color: #342164;
@@ -24,7 +47,7 @@ float: right;
 width: 100%;
 }
 .top-menu, .top-menu:hover, .top-menu:visited {
-color: #ffffff;
+color: #162555;
 float: right;
 font-size: 36pt;
 margin-right: 20px;
@@ -33,5 +56,5 @@ margin-right: 20px;
 margin-bottom: 70px;
 }
 .post h1 a, .post h1 a:visited {
-color: rgb(blue);
+color: blue;
 }
